@@ -1,0 +1,16 @@
+apply plugin: 'groovy'
+
+dependencies{
+    implementation 'com.android.tools.build:gradle:3.0.1'
+    implementation 'org.ow2.asm:asm-all:5.1'
+    implementation gradleApi()
+    implementation localGroovy()
+}
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+}
+
+
