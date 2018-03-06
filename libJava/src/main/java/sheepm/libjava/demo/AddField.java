@@ -69,4 +69,12 @@ public class AddField extends ClassVisitor {
         File newFile = new File(output, "MainActivity1.class");
         new FileOutputStream(newFile).write(newClass);
     }
+
+//    public FieldVisitor visitField(int access, String name, String desc, String signature, Object value) {
+//        if (name.equals(this.name)) {
+//            isPresent = true;
+//            return null;//
+//        }
+//        return super.visitField(access, name, desc, signature, value);
+//    }
 }
